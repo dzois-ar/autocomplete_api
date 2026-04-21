@@ -1,8 +1,8 @@
-# XE Challenge – Full Stack (Vite + Express + PostgreSQL)
+# Autocomplete Api – Full Stack (Vite + Express + PostgreSQL)
 
 Monorepo structure:
 
-xe-challenge/
+autocomplete_api/
 apps/
 web/ # React (Vite)
 api/ # Node (Express)
