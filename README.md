@@ -40,7 +40,8 @@ A modern full-stack monorepo application built with:
 # 📦 Project Structure
 
 ```txt
-xe-challenge/
+autocomplete_api
+/
 │
 ├── apps/
 │   ├── web/          # Frontend - React + Vite
@@ -53,7 +54,7 @@ xe-challenge/
 └── README.md
 
 ## Prerequisites
- ---
+ ```txt
 ### Required
 - **Node.js 18+** (recommended: latest LTS)
 - **Docker Desktop** (Windows/Mac) or **Docker Engine + Docker Compose** (Linux)
