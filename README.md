@@ -1,4 +1,4 @@
-# XE Challenge – Full Stack (Vite + Express + PostgreSQL)
+<!-- # XE Challenge – Full Stack (Vite + Express + PostgreSQL)
 
 Monorepo structure:
 
@@ -21,7 +21,35 @@ README.md
 - Validation: Zod (shared contracts)
 - HTTP: fetch/axios on frontend, axios on backend (for upstream areas autocomplete)
 
+--- -->
+
+# 🚀 XE Challenge – Full Stack Application  
+### React (Vite) + Express + PostgreSQL
+
+A modern full-stack monorepo application built with:
+
+- ⚛️ React + Vite
+- 🟢 Node.js + Express
+- 🐘 PostgreSQL
+- 🐳 Docker
+- ✅ Shared validation using Zod
+
 ---
+
+# 📦 Project Structure
+
+```txt
+xe-challenge/
+│
+├── apps/
+│   ├── web/          # Frontend - React + Vite
+│   └── api/          # Backend - Express API
+│
+├── packages/
+│   └── shared/       # Shared DTOs / Zod Schemas
+│
+├── docker-compose.yml
+└── README.md
 
 ## Prerequisites
 
