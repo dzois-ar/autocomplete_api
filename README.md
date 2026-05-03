@@ -21,6 +21,7 @@ README.md
 - Validation: Zod (shared contracts)
 - HTTP: fetch/axios on frontend, axios on backend (for upstream areas autocomplete)
 
+## Prerequisites
 --- -->
 
 # 🚀 XE Challenge – Full Stack Application  
@@ -51,7 +52,7 @@ xe-challenge/
 ├── docker-compose.yml
 └── README.md
 
-## Prerequisites
+
 
 ### Required
 - **Node.js 18+** (recommended: latest LTS)
