@@ -52,9 +52,9 @@ autocomplete_api
 │
 ├── docker-compose.yml
 └── README.md
-
+```
 ## Prerequisites
- ```txt
+
 ### Required
 - **Node.js 18+** (recommended: latest LTS)
 - **Docker Desktop** (Windows/Mac) or **Docker Engine + Docker Compose** (Linux)
