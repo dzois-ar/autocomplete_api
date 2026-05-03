@@ -32,7 +32,8 @@ export function AdDetailsPage() {
 
   return (
     <div style={{ maxWidth: 720, margin: "0 auto", padding: 16 }}>
-      <Link to="/">← Create another</Link>
+      {/* <Link to="/">← Create another</Link> */}
+      <button className="btn btn-primary" onClick={() => navigate("/")}>← Create another</button>
       <h1 style={{ fontSize: 26, marginTop: 10 }}>{ad.title}</h1>
 
       <div style={{ marginTop: 14, padding: 14, border: "1px solid #eee", borderRadius: 12 }}>
