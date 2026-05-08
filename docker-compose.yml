@@ -7,13 +7,13 @@ services:
     environment:
       POSTGRES_USER: xe
       POSTGRES_PASSWORD: xe_password
-      POSTGRES_DB: xe_challenge
+      POSTGRES_DB: autocomplete_api
     ports:
       - "127.0.0.1:5432:5432"
     volumes:
       - xe_pg_data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U xe -d xe_challenge"]
+      test: ["CMD-SHELL", "pg_isready -U xe -d autocomplete_api"]
       interval: 5s
       timeout: 3s
       retries: 10

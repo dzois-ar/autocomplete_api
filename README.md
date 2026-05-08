@@ -2,7 +2,7 @@
 
 Monorepo structure:
 
-xe-challenge/
+autocomplete_api/
 apps/
 web/ # React (Vite)
 api/ # Node (Express)
@@ -70,14 +70,14 @@ autocomplete_api
 
 ### Linux / macOS
 ```bash
-git clone https://github.com/<YOUR_USERNAME>/xe-challenge.git
-cd xe-challenge
+git clone https://github.com/<YOUR_USERNAME>/autocomplete_api.git
+cd autocomplete_api
 ```
 
 ### Windows (PowerShell)
 ```bash
-git clone https://github.com/<YOUR_USERNAME>/xe-challenge.git
-cd xe-challenge
+git clone https://github.com/<YOUR_USERNAME>/autocomplete_api.git
+cd autocomplete_api
 ```
 
 ## Install dependencies 
@@ -158,7 +158,7 @@ Fill the form and submit → backend persists the ad in Postgres/
 ## Enter psql inside the docker container:
 
 ```bash
-docker exec -it xe_pg psql -U xe -d xe_challenge
+docker exec -it xe_pg psql -U xe -d autocomplete_api
 ```
 
 ## List rows:

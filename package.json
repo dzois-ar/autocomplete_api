@@ -1,5 +1,5 @@
 {
-  "name": "xe-challenge",
+  "name": "autocomplete",
   "private": true,
   "workspaces": [
     "apps/api",
