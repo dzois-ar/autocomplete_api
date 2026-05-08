@@ -1,4 +1,4 @@
-<!-- # XE Challenge – Full Stack (Vite + Express + PostgreSQL)
+# Autocomplete Api – Full Stack (Vite + Express + PostgreSQL)
 
 Monorepo structure:
 
@@ -22,9 +22,9 @@ README.md
 - HTTP: fetch/axios on frontend, axios on backend (for upstream areas autocomplete)
 
 
---- -->
+---
 
-# 🚀 XE Challenge – Full Stack Application  
+<!-- # 🚀 Autocomplete Api  – Full Stack Application  
 ### React (Vite) + Express + PostgreSQL
 
 A modern full-stack monorepo application built with:
@@ -52,7 +52,7 @@ autocomplete_api
 │
 ├── docker-compose.yml
 └── README.md
-```
+``` -->
 ## Prerequisites
 
 ### Required
